@@ -13,7 +13,7 @@ public class App {
         System.out.println(bean == bean1);
 
         Cat cat = applicationContext.getBean("catBean", Cat.class);
-        Cat cat1 = applicationContext.getBean("catBean", Cat.class);
-        System.out.println(cat == cat1);
+        Cat cat0 = applicationContext.getBean("catBean", Cat.class);
+        System.out.println(cat == cat0);
     }
 }
